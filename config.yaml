@@ -1,10 +1,10 @@
 #  飞书
-APP_ID: cli_a4cd3e4e22a2d001e
-APP_SECRET: IAlf0V7owtgotZTnMpFTkbqmGV2BOqj17
-APP_ENCRYPT_KEY: r9pp3uiLkpS3JWQ67ITuzg8kBNTPPAf16
-APP_VERIFICATION_TOKEN: GimgPMai2mKlASWVS7Cbxhj5MpWXVdj17
+APP_ID: cli_a4cd3e4e22a2d00e
+APP_SECRET: IAlf0V7owtgotZTnMpFTkbqmGV2BOqj7
+APP_ENCRYPT_KEY: r9pp3uiLkpS3JWQ67ITuzg8kBNTPPAf6
+APP_VERIFICATION_TOKEN: GimgPMai2mKlASWVS7Cbxhj5MpWXVdj7
 # 请确保和飞书应用管理平台中的设置一致 
 BOT_NAME: 小助手
 # discord 配置
-DISCORD_MIDJOURNEY_URL: https://feishu-midjourney.webfashion8.repl.co/v1/trigger/midjourney-bot
+DISCORD_MIDJOURNEY_URL: https://midjourney-bot.vercel.app/v1/trigger/midjourney-bot
 # DISCORD_MIDJOURNEY_URL: http://127.0.0.1:16007/v1/trigger/midjourney-bot
