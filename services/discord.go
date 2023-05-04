@@ -3,7 +3,7 @@ package services
 import (
 	"encoding/json"
 	"fmt"
-	"lark/initialization"
+	"/api/initialization"
 	"net/http"
 	"strings"
 )
