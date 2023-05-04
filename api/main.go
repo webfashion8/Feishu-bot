@@ -1,8 +1,8 @@
 package main
 
 import (
-	"lark/handlers"
-	"lark/initialization"
+	"/handlers"
+	"/initialization"
 
 	"github.com/gin-gonic/gin"
 	"github.com/spf13/pflag"
