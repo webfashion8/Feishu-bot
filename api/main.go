@@ -1,8 +1,8 @@
 package main
 
 import (
-	"/api/handlers"
-	"/api/initialization"
+	"lark/handlers"
+	"lark/initialization"
 
 	"github.com/gin-gonic/gin"
 	"github.com/spf13/pflag"
@@ -12,10 +12,6 @@ import (
 	larkcard "github.com/larksuite/oapi-sdk-go/v3/card"
 	"github.com/larksuite/oapi-sdk-go/v3/event/dispatcher"
 )
-
-func Index(c *gin.Context) {
-	c.String(http.StatusOK, "hello!")
-}
 
 func main() {
 	cfg := pflag.StringP("config", "c", "./config.yaml", "apiserver config file path.")
@@ -41,8 +37,6 @@ func main() {
 			cardHandler))
 	// discord消息回调
 	r.POST("/api/discord", handlers.DiscordHandler)
-	
-	r.GET("/", Index)
 
 	r.Run(":80")
 }

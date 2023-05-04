@@ -7,15 +7,15 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"/api/chore"
-	"/api/services"
+	"lark/chore"
+	"lark/services"
 	"net/http"
 	"regexp"
 	"strconv"
 	"strings"
 	"time"
 
-	"/api/db"
+	"lark/db"
 
 	discord "github.com/bwmarrin/discordgo"
 	"github.com/gin-gonic/gin"
