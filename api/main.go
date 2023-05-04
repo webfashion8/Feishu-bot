@@ -1,8 +1,8 @@
 package main
 
 import (
-	"api/handlers"
-	"api/initialization"
+	"/api/handlers"
+	"/api/initialization"
 
 	"github.com/gin-gonic/gin"
 	"github.com/spf13/pflag"
